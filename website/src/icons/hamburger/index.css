@@ -1,0 +1,8 @@
+svg path {
+  stroke: white;
+  transition: stroke 0.15s ease;
+}
+
+svg:hover path {
+  stroke: rgb(244, 236, 236);
+}

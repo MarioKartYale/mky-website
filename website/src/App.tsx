@@ -1,33 +1,24 @@
-import { useState } from "react"
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import Navbar from './components/navbar'
+import Home from './pages/home'
+import Events from './pages/events'
+import Leaderboard from './pages/leaderboard'
+import Archive from './pages/archive'
 
+function App() {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Navbar/>
+      <div className="page">
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/events" element={<Events/>}/>
+          <Route path="/leaderboard" element={<Leaderboard/>}/>
+          <Route path="/archive" element={<Archive/>}/>
+        </Routes>
       </div>
-      <h1>Mario Kart Yale</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Daniel is our mascot
-      </p>
     </>
   )
 }
