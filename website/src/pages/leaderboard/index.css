@@ -1,0 +1,21 @@
+.leaderboard-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.leaderboard-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px; /* Space between items */
+}
+
+.trophy {
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
