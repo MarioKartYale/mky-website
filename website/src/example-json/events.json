@@ -1,0 +1,42 @@
+{
+  "upcoming": [
+    {
+      "id": 3,
+      "name": "Commons Circuit #2",
+      "date": "2025-09-20",
+      "startTime": "12:00",
+      "endTime": "15:30",
+      "location": "Commons at the Schwarzman Center",
+      "description": "Joins us in the back of Commons for some Mario Kart action!"
+    },
+    {
+      "id": 4,
+      "name": "Cross Campus Takeover",
+      "date": "2025-09-28",
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "location": "Cross Campus Lawn",
+      "description": "Mario Kart outside??? How revolutionary! (How degenerate!) Either way, join us for some competitive karting!"
+    }
+  ],
+  "past": [
+    {
+      "id": 1,
+      "name": "Commons Circuit #1",
+      "date": "2025-09-08",
+      "startTime": "12:00",
+      "endTime": "15:30",
+      "location": "Commons at the Schwarzman Center",
+      "description": "START. YOUR. ENGINES. It's Mario Kart time at Yale! Join us for the innaugural MKY event in the back of Commons. It's going to be a blast!"
+    },
+    {
+      "id": 2,
+      "name": "Trumbull Grand Prix",
+      "date": "2025-09-15",
+      "startTime": "17:00",
+      "endTime": "20:00",
+      "location": "Trumbull Dining Hall",
+      "description": "Spice up meatloaf night with some Mario Kart with friends!"
+    }
+  ]
+}

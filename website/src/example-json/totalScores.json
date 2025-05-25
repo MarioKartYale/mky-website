@@ -1,0 +1,88 @@
+{
+  "scores": [
+    {
+      "id": 1,
+      "college": "Benjamin Franklin",
+      "points": 100,
+      "games": 31
+    },
+    {
+      "id": 2,
+      "college": "Berkeley",
+      "points": 300,
+      "games": 41
+    },
+    {
+      "id": 3,
+      "college": "Branford",
+      "points": 0,
+      "games": 59
+    },
+    {
+      "id": 4,
+      "college": "Davenport",
+      "points": 10,
+      "games": 26
+    },
+    {
+      "id": 5,
+      "college": "Ezra Stiles",
+      "points": 500,
+      "games": 53
+    },
+    {
+      "id": 6,
+      "college": "Grace Hopper",
+      "points": 800,
+      "games": 58
+    },
+    {
+      "id": 7,
+      "college": "Jonathan Edwards",
+      "points": 0,
+      "games": 97
+    },
+    {
+      "id": 8,
+      "college": "Morse",
+      "points": 100,
+      "games": 93
+    },
+    {
+      "id": 9,
+      "college": "Pauli Murray",
+      "points": 700,
+      "games": 23
+    },
+    {
+      "id": 10,
+      "college": "Pierson",
+      "points": 600,
+      "games": 84
+    },
+    {
+      "id": 11,
+      "college": "Saybrook",
+      "points": 0,
+      "games": 62
+    },
+    {
+      "id": 12,
+      "college": "Silliman",
+      "points": 100,
+      "games": 64
+    },
+    {
+      "id": 13,
+      "college": "Timothy Dwight",
+      "points": 100,
+      "games": 33
+    },
+    {
+      "id": 14,
+      "college": "Trumbull",
+      "points": 900,
+      "games": 83
+    }
+  ]
+}
