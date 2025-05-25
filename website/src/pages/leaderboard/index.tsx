@@ -29,7 +29,7 @@ function Leaderboard() {
       <div className="leaderboard-body">
       <TeamList teams={scores}/>
     </div>
-      <h1>Example Scores</h1>
+      {/* <h1>Example Scores</h1>
       {scores && scores.map((score) => (
           <div key={score.id}>
             <h3>{score.college}</h3>
@@ -37,7 +37,7 @@ function Leaderboard() {
             <p>Games: {score.games}</p>
           </div>
           
-        ))}
+        ))} */}
         
     </div>
   );

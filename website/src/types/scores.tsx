@@ -3,4 +3,5 @@ export type ScoreSet = {
   college: string;
   points: number;
   games: number;
+  //collegeLogoUrl: string;
 }
