@@ -1,10 +1,11 @@
 {
-  "races" : [
+  "races": [
     {
       "id": 1,
       "eventId": 1,
       "eventName": "Commons Circuit #1",
       "time": "2025-09-08T13:26:05",
+      "track": "Baby Park",
       "results": [
         {
           "netid": "ref42",
@@ -41,6 +42,7 @@
       "eventId": 2,
       "eventName": "Trumbull Grand Prix",
       "time": "2025-09-15T17:42:27",
+      "track": "Mario Circuit",
       "results": [
         {
           "netid": "ref42",
@@ -69,6 +71,302 @@
           "college": "Ezra Stiles",
           "place": 1,
           "points": 15
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "eventId": 1,
+      "eventName": "Commons Circuit #1",
+      "time": "2025-09-08T14:01:00",
+      "track": "Choco Mountain",
+      "results": [
+        {
+          "netid": "ref42",
+          "name": "Ryan Fernandes",
+          "college": "Trumbull",
+          "place": 3,
+          "points": 11
+        },
+        {
+          "netid": "ds3249",
+          "name": "David Sadka",
+          "college": "Timothy Dwight",
+          "place": 1,
+          "points": 15
+        },
+        {
+          "netid": "dkl26",
+          "name": "Daniel Landry",
+          "college": "Berkeley",
+          "place": 6,
+          "points": 7
+        },
+        {
+          "netid": "oad9",
+          "name": "Oscar de la Cerda",
+          "college": "Ezra Stiles",
+          "place": 2,
+          "points": 13
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "eventId": 2,
+      "eventName": "Trumbull Grand Prix",
+      "time": "2025-09-15T18:10:33",
+      "track": "Toad's Turnpike",
+      "results": [
+        {
+          "netid": "ref42",
+          "name": "Ryan Fernandes",
+          "college": "Trumbull",
+          "place": 4,
+          "points": 10
+        },
+        {
+          "netid": "ds3249",
+          "name": "David Sadka",
+          "college": "Timothy Dwight",
+          "place": 1,
+          "points": 15
+        },
+        {
+          "netid": "dkl26",
+          "name": "Daniel Landry",
+          "college": "Berkeley",
+          "place": 3,
+          "points": 11
+        },
+        {
+          "netid": "oad9",
+          "name": "Oscar de la Cerda",
+          "college": "Ezra Stiles",
+          "place": 2,
+          "points": 13
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "eventId": 3,
+      "eventName": "Timothy Time Trials",
+      "time": "2025-09-22T15:00:00",
+      "track": "Rainbow Road",
+      "results": [
+        {
+          "netid": "ref42",
+          "name": "Ryan Fernandes",
+          "college": "Trumbull",
+          "place": 1,
+          "points": 15
+        },
+        {
+          "netid": "ds3249",
+          "name": "David Sadka",
+          "college": "Timothy Dwight",
+          "place": 2,
+          "points": 13
+        },
+        {
+          "netid": "dkl26",
+          "name": "Daniel Landry",
+          "college": "Berkeley",
+          "place": 4,
+          "points": 10
+        },
+        {
+          "netid": "oad9",
+          "name": "Oscar de la Cerda",
+          "college": "Ezra Stiles",
+          "place": 3,
+          "points": 11
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "eventId": 3,
+      "eventName": "Timothy Time Trials",
+      "time": "2025-09-22T15:30:00",
+      "track": "Dry Dry Desert",
+      "results": [
+        {
+          "netid": "ref42",
+          "name": "Ryan Fernandes",
+          "college": "Trumbull",
+          "place": 3,
+          "points": 11
+        },
+        {
+          "netid": "ds3249",
+          "name": "David Sadka",
+          "college": "Timothy Dwight",
+          "place": 1,
+          "points": 15
+        },
+        {
+          "netid": "dkl26",
+          "name": "Daniel Landry",
+          "college": "Berkeley",
+          "place": 2,
+          "points": 13
+        },
+        {
+          "netid": "oad9",
+          "name": "Oscar de la Cerda",
+          "college": "Ezra Stiles",
+          "place": 4,
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "eventId": 4,
+      "eventName": "Berkeley Blitz",
+      "time": "2025-09-29T16:10:00",
+      "track": "Wario Stadium",
+      "results": [
+        {
+          "netid": "ref42",
+          "name": "Ryan Fernandes",
+          "college": "Trumbull",
+          "place": 2,
+          "points": 13
+        },
+        {
+          "netid": "ds3249",
+          "name": "David Sadka",
+          "college": "Timothy Dwight",
+          "place": 4,
+          "points": 10
+        },
+        {
+          "netid": "dkl26",
+          "name": "Daniel Landry",
+          "college": "Berkeley",
+          "place": 1,
+          "points": 15
+        },
+        {
+          "netid": "oad9",
+          "name": "Oscar de la Cerda",
+          "college": "Ezra Stiles",
+          "place": 3,
+          "points": 11
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "eventId": 4,
+      "eventName": "Berkeley Blitz",
+      "time": "2025-09-29T16:40:00",
+      "track": "Koopa Cape",
+      "results": [
+        {
+          "netid": "ref42",
+          "name": "Ryan Fernandes",
+          "college": "Trumbull",
+          "place": 4,
+          "points": 10
+        },
+        {
+          "netid": "ds3249",
+          "name": "David Sadka",
+          "college": "Timothy Dwight",
+          "place": 2,
+          "points": 13
+        },
+        {
+          "netid": "dkl26",
+          "name": "Daniel Landry",
+          "college": "Berkeley",
+          "place": 1,
+          "points": 15
+        },
+        {
+          "netid": "oad9",
+          "name": "Oscar de la Cerda",
+          "college": "Ezra Stiles",
+          "place": 3,
+          "points": 11
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "eventId": 5,
+      "eventName": "Stiles Sprint",
+      "time": "2025-10-06T18:15:00",
+      "track": "Moo Moo Meadows",
+      "results": [
+        {
+          "netid": "ref42",
+          "name": "Ryan Fernandes",
+          "college": "Trumbull",
+          "place": 3,
+          "points": 11
+        },
+        {
+          "netid": "ds3249",
+          "name": "David Sadka",
+          "college": "Timothy Dwight",
+          "place": 4,
+          "points": 10
+        },
+        {
+          "netid": "dkl26",
+          "name": "Daniel Landry",
+          "college": "Berkeley",
+          "place": 2,
+          "points": 13
+        },
+        {
+          "netid": "oad9",
+          "name": "Oscar de la Cerda",
+          "college": "Ezra Stiles",
+          "place": 1,
+          "points": 15
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "eventId": 5,
+      "eventName": "Stiles Sprint",
+      "time": "2025-10-06T18:45:00",
+      "track": "Shy Guy Falls",
+      "results": [
+        {
+          "netid": "ref42",
+          "name": "Ryan Fernandes",
+          "college": "Trumbull",
+          "place": 1,
+          "points": 15
+        },
+        {
+          "netid": "ds3249",
+          "name": "David Sadka",
+          "college": "Timothy Dwight",
+          "place": 3,
+          "points": 11
+        },
+        {
+          "netid": "dkl26",
+          "name": "Daniel Landry",
+          "college": "Berkeley",
+          "place": 4,
+          "points": 10
+        },
+        {
+          "netid": "oad9",
+          "name": "Oscar de la Cerda",
+          "college": "Ezra Stiles",
+          "place": 2,
+          "points": 13
         }
       ]
     }

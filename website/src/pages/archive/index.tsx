@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import exampleData from '../../example-json/races.json'
 import { type Race } from '../../types/races'
 
+import './index.css'
+
 function Archive() {
   const [races, setRaces] = useState<Race[]>();
 
@@ -17,21 +19,39 @@ function Archive() {
   return (
     <>
       <div>
-        <h1>Past Races</h1>
-        {races && races.map((race) => (
-          <div key={race.id}>
-            <h3>{race.eventName}</h3>
-            <p>{race.time}</p>
-            {race.results.map((result) => (
-              <div key={result.netid}>
-                <h4>Name: {result.name}</h4>
-                <p>College: {result.college}</p>
-                <p>Place: {result.place}</p>
-                <p>Points: {result.points}</p>
-              </div>
-            ))}
+        <div className="archive-header">
+          <h1>Race Archive</h1>
+          <p>See and filter the results from past races</p>
+        </div>
+        <div className="archive-search">
+          <p>Filters:</p>
+        </div>
+        <div className="archive-table">
+          <div className="archive-table-header">
+            <span>Event</span>
+            <span>Date</span>
+            <span>Time</span>
+            <span>Track</span>
+            <span>Winner</span>
+            <span>College</span>
           </div>
-        ))}
+
+          {races && races.map((race) => {
+            let sorted = [...race.results];
+            let winner = sorted.sort((a, b) => a.place - b.place)[0];
+
+            return (
+              <div className="archive-table-body">
+                <span>{race.eventName}</span>
+                <span>{race.time.substring(0, 10)}</span>
+                <span>{race.time.substring(11, 16)}</span>
+                <span>{race.track}</span>
+                <span>{winner.name}</span>
+                <span>{winner.college}</span>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </>
   )

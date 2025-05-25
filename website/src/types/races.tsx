@@ -11,5 +11,6 @@ export type Race ={
   eventId: number;
   eventName: string;
   time: string;
+  track: string;
   results: IndividualResult[];
 }
