@@ -14,9 +14,10 @@ function Leaderboard() {
     // ---
     let data = exampleData;
     // ---
-
-    setScores(data.scores);
+    const sorted = data.scores == undefined ? undefined: data.scores.sort((a, b) => b.points - a.points);
+    setScores(sorted);
   })
+
 
   return (
     <div className="leaderboard-container">
@@ -25,7 +26,9 @@ function Leaderboard() {
         <h1 className="title">Leaderboard</h1>
         <img src="/trophy.png" alt="Trophy" className="trophy" />
       </div>
-      <TeamList teams={TEMP_TEAMS}/>
+      <div className="leaderboard-body">
+      <TeamList teams={scores}/>
+    </div>
       <h1>Example Scores</h1>
       {scores && scores.map((score) => (
           <div key={score.id}>
@@ -33,7 +36,9 @@ function Leaderboard() {
             <p>Points: {score.points}</p>
             <p>Games: {score.games}</p>
           </div>
+          
         ))}
+        
     </div>
   );
 }

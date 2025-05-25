@@ -10,6 +10,15 @@
   gap: 16px; /* Space between items */
 }
 
+.leaderboard-body {
+  border: 1px solid #ccc;         /* Outer box border */
+  border-radius: 6px;
+  padding: 16px;
+  max-width: 600px;               /* Optional: limit width */
+  margin: 0 auto;                 /* Center on page */
+  background-color: #f9f9f9;      /* Light background */
+}
+
 .trophy {
   width: 40px;
   height: 40px;

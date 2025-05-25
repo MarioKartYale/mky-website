@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import exampleData from '../../example-json/events.json'
 import { type PastEvent, type UpcomingEvent } from '../../types/events'
+import EventCard from "../../components/EventCard"
 
 function Events() {
   const [pastEvents, setPastEvents] = useState<PastEvent[]>();
@@ -22,21 +23,13 @@ function Events() {
         <h1>Upcoming Events</h1>
         {upcomingEvents && upcomingEvents.map((event) => (
           <div key={event.id}>
-            <h3>{event.name}</h3>
-            <p>{event.description}</p>
-            <p>Date: {event.date}</p>
-            <p>From: {event.startTime} To: {event.endTime}</p>
-            <p>Location: {event.location}</p>
+            <EventCard event={event}/>
           </div>
         ))}
         <h1>Past Events</h1>
         {pastEvents && pastEvents.map((event) => (
           <div key={event.id}>
-            <h3>{event.name}</h3>
-            <p>{event.description}</p>
-            <p>Date: {event.date}</p>
-            <p>From: {event.startTime} To: {event.endTime}</p>
-            <p>Location: {event.location}</p>
+            <EventCard event={event}/>
           </div>
         ))}
       </div>
