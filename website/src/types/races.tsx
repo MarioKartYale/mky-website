@@ -4,6 +4,9 @@ export type IndividualResult = {
   college: string;
   place: number;
   points: number;
+  lap1: string;
+  lap2: string;
+  lap3:string
 }
 
 export type Race ={

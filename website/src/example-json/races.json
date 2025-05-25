@@ -12,28 +12,41 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 6,
-          "points": 7
+          "points": 7,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 12,
-          "points": 1
+          "points": 1,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
+          
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         }
       ]
     },
@@ -49,28 +62,40 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 3,
-          "points": 11
+          "points": 11,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 11,
-          "points": 2
+          "points": 2,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         }
       ]
     },
@@ -86,28 +111,40 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 3,
-          "points": 11
+          "points": 11,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 6,
-          "points": 7
+          "points": 7,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         }
       ]
     },
@@ -123,28 +160,40 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 4,
-          "points": 10
+          "points": 10,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 3,
-          "points": 11
+          "points": 11,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         }
       ]
     },
@@ -160,28 +209,40 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 4,
-          "points": 10
+          "points": 10,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 3,
-          "points": 11
+          "points": 11,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         }
       ]
     },
@@ -197,28 +258,40 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 3,
-          "points": 11
+          "points": 11,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 4,
-          "points": 10
+          "points": 10,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
         }
       ]
     },
@@ -234,28 +307,40 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 4,
-          "points": 10
+          "points": 10,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 3,
-          "points": 11
+          "points": 11,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         }
       ]
     },
@@ -271,28 +356,40 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 4,
-          "points": 10
+          "points": 10,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 3,
-          "points": 11
+          "points": 11,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         }
       ]
     },
@@ -308,28 +405,40 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 3,
-          "points": 11
+          "points": 11,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 4,
-          "points": 10
+          "points": 10,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         }
       ]
     },
@@ -345,28 +454,40 @@
           "name": "Ryan Fernandes",
           "college": "Trumbull",
           "place": 1,
-          "points": 15
+          "points": 15,
+          "lap1": "0:54.23",
+          "lap2": "1:35.44",
+          "lap3": "2:34.01"
         },
         {
           "netid": "ds3249",
           "name": "David Sadka",
           "college": "Timothy Dwight",
           "place": 3,
-          "points": 11
+          "points": 11,
+          "lap1": "1:03.67",
+          "lap2": "1:53.11",
+          "lap3": "3:10.19"
         },
         {
           "netid": "dkl26",
           "name": "Daniel Landry",
           "college": "Berkeley",
           "place": 4,
-          "points": 10
+          "points": 10,
+          "lap1": "1:05.27",
+          "lap2": "1:59.99",
+          "lap3": "3:12.22"
         },
         {
           "netid": "oad9",
           "name": "Oscar de la Cerda",
           "college": "Ezra Stiles",
           "place": 2,
-          "points": 13
+          "points": 13,
+          "lap1": "0:59.65",
+          "lap2": "1:49.10",
+          "lap3": "2:51.02"
         }
       ]
     }

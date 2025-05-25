@@ -89,9 +89,12 @@
 
 .navbar-menu {
   display: flex;
-  padding: 1.5rem;
-  transform: translateY(-105%);
-  transition: transform 0.15s ease;
+  padding: 0;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 
+    max-height 0.3s ease,
+    padding 0.3s ease;
   background-color: #ba0b16;
   border-radius: 0 0 20px 20px;
 }
@@ -124,6 +127,7 @@
   }
 
   .navbar-menu.open {
-    transform: translateY(0px);
+    max-height: 500px;
+    padding: 1.5rem;
   }
 }
