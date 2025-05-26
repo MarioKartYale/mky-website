@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './index.css'
 import { Team } from '../Team.ts'
 import type { ScoreSet } from '../../types/scores.tsx'
+import { Link } from 'react-router';
+
 
 interface TeamListProps {
     teams: ScoreSet[] | undefined;
@@ -20,7 +22,9 @@ function TeamList ({teams}: TeamListProps) {
             {teams && teams.map((team) => 
             (<div key={team.id} className="team-row">
                 <img src={`${team.college} logo.png`} alt={`${team.college} logo`} className="college-logo"/>
+               <Link to={`/leaderboard/college/${team.college}`} className='team-link'>
                <span className="team-name">{team.college}</span>
+               </Link>
                 <span className="team-points">{team.points}</span>
                 <span className="team-games">{team.games}</span> </div>))}
         </div>

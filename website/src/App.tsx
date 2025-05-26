@@ -6,6 +6,7 @@ import Home from './pages/home'
 import Events from './pages/events'
 import Leaderboard from './pages/leaderboard'
 import Archive from './pages/archive'
+import CollegeStats from './pages/CollegeStats'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/events" element={<Events/>}/>
           <Route path="/leaderboard" element={<Leaderboard/>}/>
+          <Route path="/leaderboard/college/:college" element={<CollegeStats/>} />
           <Route path="/archive" element={<Archive/>}/>
         </Routes>
       </div>

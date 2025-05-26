@@ -1,6 +1,5 @@
 import TeamList from '../../components/TeamList';
 import './index.css'
-import { TEMP_TEAMS } from '../../components/TEMP_TEAMS';
 
 import { useEffect, useState } from 'react';
 import exampleData from '../../example-json/totalScores.json';
@@ -16,7 +15,7 @@ function Leaderboard() {
     // ---
     const sorted = data.scores == undefined ? undefined: data.scores.sort((a, b) => b.points - a.points);
     setScores(sorted);
-  })
+  }, [])
 
 
   return (

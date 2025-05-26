@@ -1,0 +1,33 @@
+{
+"players": [
+    {   
+        "name": "David Sadka",
+        "netid": "ds3249",
+        "college": "Timothy Dwight",
+        "totalPoints": 100,
+        "numberRaces": 5,
+        "raceIds": [1, 2, 3, 4, 5]
+    },
+
+    {
+        "name": "Ryan Fernandes",
+        "netid": "ref42",
+        "college": "Trumbull",
+        "totalPoints": 125,
+        "numberRaces": 5,
+        "raceIds": [1, 2, 3, 4, 5]
+
+    }, 
+
+    {
+        "name": "Daniel Landry",
+        "netid": "dkl26",
+        "college": "Berkeley",
+        "totalPoints": 75,
+        "numberRaces": 5,
+        "raceIds": [1, 2, 3, 4, 5]
+    }
+
+]
+
+}
