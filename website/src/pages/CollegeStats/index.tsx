@@ -5,6 +5,7 @@ import { type Player } from '../../types/players';
 import players from '../../example-json/players.json';
 import './index.css'
 import { useParams } from 'react-router';
+import BestRace from '../../components/BestRace';
 
 
 function CollegeStats() {
@@ -41,7 +42,8 @@ function CollegeStats() {
     {p &&
       p.map((pp) => (
         <li key={pp.netid} className="player-item">
-          <strong>{pp.name}</strong> {pp.totalPoints} points in {pp.numberRaces} races
+          <strong>{pp.name}</strong>: {pp.totalPoints} points in {pp.numberRaces} races.
+          <BestRace player={pp} />
         </li>
       ))}
   </ol>
