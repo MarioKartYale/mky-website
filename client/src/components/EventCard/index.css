@@ -1,0 +1,27 @@
+/* client/src/components/EventCard/index.css */
+
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 16px 0;
+  background-color: #fafafa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.event-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.event-description {
+  margin: 10px 0;
+  color: #555;
+}
+
+.event-card p {
+  margin: 6px 0;
+  color: #444;
+}
