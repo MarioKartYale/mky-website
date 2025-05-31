@@ -1,0 +1,135 @@
+/* client/src/components/navbar/index.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E4000F;
+  align-items: center;
+  padding: 1.25rem 5rem;
+  transition: padding 0.15s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+.navbar-logo img {
+  height: 45px;
+  border-radius: 15%;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: color 0.15s ease;
+}
+
+.navbar-logo a:hover {
+  color: rgb(244, 236, 236);
+}
+
+.navbar-links {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 325;
+}
+
+.navbar-links li {
+  transition: transform 0.15s ease;
+}
+
+.navbar-links li:hover {
+  transform: rotate(-2deg) scale(1.05);
+}
+
+.menu-links {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 1.25rem;
+}
+
+.menu-links li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 325;
+}
+
+.menu-links li {
+  transition: transform 0.15s ease;
+}
+
+.menu-links li:hover {
+  transform: rotate(-2deg) scale(1.05);
+}
+
+.hamburger img:hover {
+  stroke: blue;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.navbar-menu {
+  display: flex;
+  padding: 0;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 
+    max-height 0.3s ease,
+    padding 0.3s ease;
+  background-color: #ba0b16;
+  border-radius: 0 0 20px 20px;
+}
+
+.container {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 1.25rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar.open {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+
+  .navbar-menu.open {
+    max-height: 500px;
+    padding: 1.5rem;
+  }
+}

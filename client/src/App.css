@@ -1,0 +1,12 @@
+/* client/src/App.css */
+
+.page {
+  margin: 7rem 10rem;
+  transition: margin 0.15s ease;
+}
+
+@media (max-width: 1024px) {
+  .page {
+    margin: 7rem 2rem;
+  }
+}
